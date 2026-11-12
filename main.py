@@ -1,7 +1,9 @@
-"""Cutest-picture-01 entry (Python 3.13, standard library only).
+"""Cutest-picture v3 entry (Python 3.13, standard library only).
 
-The picture is entry.png beside this file, drawn procedurally by
-generate.py; this program copies it to the output directory.
+Entrypoint for the make.fun grader. The picture is entry.png beside
+this file -- an extreme close-up baby red panda, drawn procedurally
+by generate.py (deterministic; re-running it reproduces entry.png
+byte-for-byte). This program copies entry.png to the output directory.
 Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 """
